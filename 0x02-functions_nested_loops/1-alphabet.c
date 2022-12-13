@@ -4,7 +4,7 @@
  *
  * Return: Always 0 (Success)
  */
-void print_alphabet()
+int main(void)
 {
 int n;
 for (n = 'a'; n <= 'z'; n++)
