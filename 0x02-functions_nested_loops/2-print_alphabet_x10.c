@@ -1,4 +1,4 @@
-#include "_putchar.h"
+#include "main.h"
 /**
  * print_alphabet_x10 - a function
  *
@@ -10,7 +10,7 @@ int n, co;
 co = 0;
 while (co < 10)
 {
-  for (n = 'a'; n <= 'z'; n++)
+for (n = 'a'; n <= 'z'; n++)
 {
 _putchar(n);
 }
