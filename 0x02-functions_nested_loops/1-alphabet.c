@@ -4,13 +4,13 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+void print_alphabet(void)
 {
-int n;
-for (n = 'a'; n <= 'z'; n++)
+int l = 'a';
+while (l <= 'z')
 {
-_putchar(n);
+_putchar(l);
+ l += 1;
 }
-_putchar('\n');
-return (0);
+_putchar(10);
 }
