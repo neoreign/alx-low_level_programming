@@ -6,12 +6,5 @@
  */
 void print_number(int n)
 {
-int i;
-while (i > 0)
-{
-_putchar(i);
-i++;
-}
-_putchar('\n');
 return (0);
 }
