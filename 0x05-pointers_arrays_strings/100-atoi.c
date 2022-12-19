@@ -5,7 +5,7 @@
  * @s: input
  * Return: Always 0 (Success)
  */
-int main(void)
+int _atoi(char *s)
 {
 return (0);
 }
