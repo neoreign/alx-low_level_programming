@@ -26,5 +26,5 @@ return (1);
 if (n % i == 0)
 return (0);
 else
-return (prime_checker (n, i - 1));
+return (prime_checker(n, i - 1));
 }
