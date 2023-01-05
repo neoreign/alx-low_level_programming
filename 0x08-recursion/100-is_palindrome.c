@@ -21,7 +21,7 @@ return (palindrome(s, 0, len - 1));
  */
 int lengthc(char *s)
 {
-if (*s !='\0')
+if (*s != '\0')
 return (1 + lengthc(s + 1));
 return (0);
 }
